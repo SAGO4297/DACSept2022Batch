@@ -12,7 +12,7 @@ int main(void)
 	Banner a; //memory is implicitly allocated (on stack-frame) for the instance
 			  //and default constructor is called
 	Banner b(Geometry::Elliptical); //memory is implicitly allocated for the instance
-									 //and parameterized constructor is called
+							//and parameterized constructor is called
 	float x, y;
 	printf("Banner Dimensions: ");
 	scanf("%f%f", &x, &y);
